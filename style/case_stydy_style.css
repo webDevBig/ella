@@ -265,7 +265,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-   font-family: 'Manjari', sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 83px 0 0;
 }
@@ -952,7 +952,6 @@ section {
 
     .section5 {
         max-height: 1000px;
-        background-size: cover;
     }
 
     .section7 img {
@@ -1064,6 +1063,10 @@ section {
     .section10 .shape {
         top: 58%;
         width: 50px;
+    }
+
+    .section5 {
+        background-size: cover;
     }
 }
 
