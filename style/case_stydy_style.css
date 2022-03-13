@@ -62,7 +62,7 @@ section {
 .section1 h1 {
     font-size: 120px;
     line-height: 130px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     letter-spacing: 4.8px;
     font-weight: bold;
 }
@@ -70,7 +70,7 @@ section {
 .section1 .title {
     font-size: 70px;
     line-height: 76px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     letter-spacing: 2.8px;
     font-weight: bold;
 }
@@ -107,7 +107,7 @@ section {
 .section2 .h1 {
     font-size: 64px;
     line-height: 69px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     letter-spacing: 2.56px;
     font-weight: bold;
     text-align: center;
@@ -117,7 +117,7 @@ section {
 .section2 .note {
     font-size: 36px;
     line-height: 40px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     letter-spacing: 1.44px;
     font-weight: bold;
     margin: 24px 0 75px;
@@ -200,7 +200,7 @@ section {
     font-size: 75px;
     line-height: 81px;
     letter-spacing: 3px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
 }
 
@@ -208,7 +208,7 @@ section {
     font-size: 117px;
     line-height: 127px;
     letter-spacing: 4.68px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
 }
 
@@ -248,7 +248,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     margin: 0 0 22px;
     text-align: center;
 }
@@ -265,7 +265,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+   font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 83px 0 0;
 }
@@ -289,7 +289,7 @@ section {
     font-size: 30px;
     line-height: 32px;
     letter-spacing: 1.2px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     margin: 39px 0 0;
     text-align: center;
 
@@ -361,7 +361,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 0 0 45px;
 }
@@ -429,7 +429,7 @@ section {
     font-size: 35px;
     line-height: 41px;
     letter-spacing: 1.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: 100;
 }
 
@@ -502,7 +502,7 @@ section {
     font-size: 42px;
     line-height: 49px;
     letter-spacing: 1.68px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: 100;
     text-align: justify;
     max-width: 753px;
@@ -538,7 +538,7 @@ section {
     font-size: 62px;
     line-height: 75px;
     letter-spacing: 2.48px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     max-width: 1376px;
     width: 100%;
@@ -590,7 +590,7 @@ section {
     font-size: 23.6px;
     line-height: 25px;
     letter-spacing: 0.92px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: 400;
     text-align: center;
 }
@@ -622,7 +622,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     max-width: 1520px;
     width: 100%;
@@ -713,7 +713,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 0 0 40px;
 }
@@ -752,7 +752,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 0 0 20px;
     min-width: 570px;
@@ -802,7 +802,7 @@ section {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: 2.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: bold;
     margin: 0 0 20px;
 }
@@ -886,7 +886,7 @@ section {
     font-size: 35px;
     line-height: 41px;
     letter-spacing: 1.4px;
-    font-family: Manjari, sans-serif;
+    font-family: 'Manjari', sans-serif;
     font-weight: 100;
     text-align: justify;
 }
@@ -916,22 +916,6 @@ section {
     .section10 .content {
         margin: 0 0 0 auto;
     }
-
-    .section3 .sec_img {
-        /*        max-width: 100%;*/
-    }
-
-    /*
-    .section3 .sec_img {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 0;
-    max-width: 1655px;
-        width: 100%;
-    margin: -15px 0 0;
-}
-*/
 
     .section7 img {
         max-width: 55%;
