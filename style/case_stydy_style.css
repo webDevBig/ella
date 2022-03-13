@@ -212,7 +212,9 @@ section {
     z-index: 0;
     bottom: 0;
     left: 0;
-    max-width: 1655px;
+    /*    max-width: 1655px;*/
+    max-width: 70%;
+    width: 100%;
     margin: -15px 0 0;
 }
 
@@ -903,9 +905,21 @@ section {
         margin: 0 0 0 auto;
     }
 
-    .section3 img {
-        max-width: 100%;
+    .section3 .sec_img {
+        /*        max-width: 100%;*/
     }
+
+    /*
+    .section3 .sec_img {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 1655px;
+        width: 100%;
+    margin: -15px 0 0;
+}
+*/
 
     .section7 img {
         max-width: 55%;
@@ -927,8 +941,17 @@ section {
         max-width: 1200px;
     }
 
-    .section3 img {
+    .section2 {
+        padding: 123px 0 288px;
+    }
+
+    .section3 .sec_img {
         max-width: 79%;
+    }
+
+    .section3 .shape {
+        top: -180px;
+        width: 129px;
     }
 
     .section5 {
@@ -1001,6 +1024,17 @@ section {
         margin: -386px 50px 0 0;
         max-width: 350px;
     }
+
+    .section10 .shape {
+        top: 54%;
+        width: 70px;
+    }
+
+    .section3 {
+        padding: 50px 60px 0;
+    }
+
+
 }
 
 @media all and (max-width:1366px) {
@@ -1011,8 +1045,29 @@ section {
     .section15 img {
         max-width: 50%;
     }
+
+    .section1 .shape {
+        top: 30px;
+        width: 40px;
+    }
+
+    .section2 {
+        padding: 123px 0 150px;
+    }
 }
 
+
+@media all and (max-width:1280px) {
+    .section9 .shape {
+        top: 54%;
+        width: 60px;
+    }
+
+    .section10 .shape {
+        top: 58%;
+        width: 50px;
+    }
+}
 
 @media all and (max-width:1024px) {
     .section1 .content {
@@ -1029,6 +1084,33 @@ section {
         padding: 0 50px;
     }
 
+    .section1 h1 {
+        font-size: 102px;
+        line-height: 106px;
+        letter-spacing: 4px;
+    }
+
+    .section1 .title {
+        font-size: 60px;
+        line-height: 61px;
+        letter-spacing: 2px;
+    }
+
+    .section1 .text {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 1px;
+    }
+
+    .section1 .line {
+        width: 40%;
+    }
+
+    .section2 .shape {
+        top: -172px;
+        width: 40px;
+    }
+
     .section2 .h1 br {
         display: none;
     }
@@ -1040,6 +1122,7 @@ section {
     .section3 {
         flex-direction: column-reverse;
         height: 600px;
+        padding: 130px 60px 0;
     }
 
     .section3 .text_box {
@@ -1137,6 +1220,10 @@ section {
 }
 
 @media all and (max-width:900px) {
+    .section3 {
+        height: 400px;
+    }
+
     .section2 .item_box {
         flex-direction: column;
         align-items: center;
@@ -1153,6 +1240,38 @@ section {
 
     .section2 .text {
         text-align: center;
+    }
+
+    .section4 .item_img4 {
+        max-width: 100%;
+    }
+
+    .section4 .item_img3 {
+        max-width: 85%;
+    }
+
+    .section4 .item_img2 {
+        max-width: 50%;
+    }
+
+    .section9 .shape {
+        top: 73%;
+    }
+
+    .section10 .shape {
+        top: 55%;
+    }
+
+    .section15 .shape {
+        width: 50px;
+    }
+
+    .section4 .item_img1 {
+        max-width: 35%;
+    }
+
+    .section6 .shape {
+        top: -24%;
     }
 
     .section3 .title {
@@ -1256,6 +1375,15 @@ section {
 }
 
 @media all and (max-width:425px) {
+
+    .section9 .shape,
+    .section10 .shape,
+    .section6 .shape,
+    .section2 .shape,
+    .section1 .shape {
+        width: 30px;
+    }
+
     .section2 .h1 {
         font-size: 32px;
         line-height: 35px;
