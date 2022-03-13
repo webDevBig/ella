@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-BdCn;
+    src: url("../font/HelveticaNeueLTStd-BdCn.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Roman;
+    src: url("../font/HelveticaNeueLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: KozGoPr6N-Regular;
+    src: url("../font/KozGoPr6N-Regular.otf");
+}
+
+body {
+    background-color: #F5F1EC;
+}
+
+.header {
+    background-color: #0B1527;
+    padding: 22px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .content {
+    width: 100%;
+    max-width: 1655px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header .logo {
+    width: 150px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 150px;
+}
+
+ul.menu {
+    width: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 18px;
+}
+
+.menu a {
+    color: white;
+    font-family: HelveticaNeueLTStd-BdCn;
+    text-decoration: none;
+    letter-spacing: 0.64px;
+    font-size: 16.8px;
+}
+
+.social_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50px;
+}
+
+.social_box .social {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 2px;
+}
+
+.social_box .social_facebook img {
+    width: 108%;
+    margin: 5px 0 0;
+}
+
+.social_box .social_tweet img {
+    width: 14px;
+}
+
+.social_box .social_link img {
+    width: 12px;
+}
+
+.social_box .social_tumbler img {
+    width: 13px;
+}
+
+.lct_img {
+    width: 81px;
+}
+
+.contact_btn {
+    background-color: #05A047;
+    padding: 13px 13px 8px;
+}
+
+@media all and (max-width:1024px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .lct_img {
+        width: 60px;
+    }
+
+    .menu a {
+        letter-spacing: 0.44px;
+        font-size: 12.8px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+}
+
+@media all and (max-width:900px) {
+    .header .menu {
+        display: none;
+    }
+}
