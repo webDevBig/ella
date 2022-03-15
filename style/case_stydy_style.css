@@ -1349,7 +1349,11 @@ h4 {
 
     .section3 {
         padding: 50px 60px 0;
-        max-height: 700px;
+        max-height: 500px;
+    }
+
+    .section3 .sec_img {
+        max-width: 50%;
     }
 
 
