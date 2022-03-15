@@ -152,7 +152,7 @@ h4 {
     font-size: 36px;
     line-height: 40px;
 */
-    font-size: 1em;
+    font-size: 1.35em;
     font-family: 'Manjari', sans-serif;
     letter-spacing: 0.44px;
     font-weight: bold;
@@ -201,7 +201,7 @@ h4 {
 
 .section2 .title {
     /*    font-size: 46px;*/
-    font-size: 1.75em;
+    font-size: 1.55em;
     line-height: 1.25;
     font-family: HelveticaNeueLTStd-BdCn;
     letter-spacing: 0.84px;
